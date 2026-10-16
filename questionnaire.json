@@ -248,12 +248,12 @@
     ],
     "resultFootnotes": [
       "本次分档依据自评回答生成，不代表已完成神经活动检测或接口诊断。",
-      "以上内容属于《A Gift for Ghost》的游戏设定，为虚构内容。“预解释覆盖”“经验回接”“主体脱耦”等机制及干预流程均为世界观创作，不属于经过验证的医学结论。"
+      "以上内容属于《A Gift for Ghost》的游戏设定，为虚构内容。“预解释覆盖”“经验回接”“认知脱耦”等机制及干预流程均为世界观创作，不属于经过验证的医学结论。"
     ]
   },
   "en": {
     "intro": [
-      "In 2036, Agents widely assist everyday sensing, judgment, and action. When people observe and decide less for themselves, life may still run smoothly while direct engagement with the world fades—this is Cognitive Impoverishment Syndrome. Stress, fatigue, repetitive routines, and over-reliance on Agents may contribute to its development.",
+      "In 2036, Agents routinely support perception, judgment, and action in everyday life. When people observe and decide less for themselves, life may still run smoothly while direct engagement with the world fades—this is Cognitive Impoverishment Syndrome. Stress, fatigue, repetitive routines, and over-reliance on Agents may contribute to its development.",
       "This questionnaire explores your recent patterns of perception, thinking, and autonomous participation.",
       "Please answer based on the past two weeks. For each item, choose the option that best matches your situation."
     ],
@@ -412,7 +412,7 @@
             "text": "Not every walk, conversation, or attempt needs a generated summary. Some details that have not yet been explained are still part of personal experience."
           }
         ],
-        "focus": "When your feeling differs from an Agent’s explanation, can you still keep your own question instead of treating it immediately as an error to correct?"
+        "focus": "When your feeling differs from an Agent’s explanation, can you hold on to your own doubts rather than immediately treating them as errors to correct?"
       },
       {
         "label": "Reduced participation in some stages",
@@ -420,7 +420,7 @@
         "headline": "A tendency to externalize parts of the experience loop",
         "paragraphs": [
           "This self-assessment suggests that some cognitive stages may be shifting toward agent systems. You can still judge and act independently, yet in certain situations the system’s explanation arrives before your observation, and recommendations form before your own intention.",
-          "This is called “pre-interpretive overlay.” When things in the environment continually appear as already identified, already summarized, and already decided next, people grow used to receiving results and less often move from uncertainty to understanding. Early changes often do not hurt efficiency and may even feel like life becoming smoother."
+          "This is called “pre-interpretive overlay.” When things in the environment continually appear as already identified and summarized, with the next action already selected, people grow used to receiving results and less often move from uncertainty to understanding. Early changes often do not hurt efficiency and may even feel like life becoming smoother."
         ],
         "adviceTitle": "Adjustment suggestions",
         "advice": [
@@ -437,7 +437,7 @@
             "text": "Choose a small step in a task to complete yourself, so the outcome of action again becomes a basis for your judgment and learning."
           }
         ],
-        "focus": "If there is temporarily no recommendation, can you still produce a vague next step that belongs to you?"
+        "focus": "If there is temporarily no recommendation, can you think of a next step of your own, even if it is not yet fully formed?"
       },
       {
         "label": "Reduced participation across multiple stages",
@@ -458,7 +458,7 @@
             "text": "In the brain–computer interface, turn on source labels such as “lived / system-supplemented / inferred” to tell what came from feeling at the time and what the system filled in later."
           },
           {
-            "title": "Switch to process collaboration.",
+            "title": "Switch to step-by-step collaboration.",
             "text": "For tasks you want to reclaim, let the Agent offer prompts and feedback while you keep choosing methods and handling deviations."
           },
           {
@@ -487,7 +487,7 @@
             "text": "In cognitive-support mode, keep necessary assistance while the Agent asks questions, offers prompts, and waits for confirmation, gradually increasing your participation."
           },
           {
-            "title": "Reattach through small perceptible actions.",
+            "title": "Reconnect through small, tangible actions.",
             "text": "Touch a leaf, turn an object, tend a plant by hand. Watch how your movement changes what is in front of you."
           },
           {
@@ -500,7 +500,259 @@
     ],
     "resultFootnotes": [
       "This banding is generated from self-assessment answers and does not mean neural activity testing or interface diagnostics have been completed.",
-      "The above belongs to the game setting of A Gift for Ghost and is fictional. Mechanisms and intervention flows such as “pre-interpretive overlay,” “experience reconnection,” and “subject decoupling” are world-building, not validated medical conclusions."
+      "The above belongs to the game setting of A Gift for Ghost and is fictional. Mechanisms and intervention flows such as “pre-interpretive overlay,” “experience reconnection,” and “cognitive decoupling” are world-building, not validated medical conclusions."
+    ]
+  },
+  "es": {
+    "intro": [
+      "En 2036, los agentes de IA ayudan habitualmente a percibir el entorno, tomar decisiones y realizar tareas. Cuando las personas observan y deciden cada vez menos por sí mismas, la vida cotidiana puede seguir funcionando mientras disminuye su participación directa en el mundo. Este estado se conoce como síndrome de empobrecimiento cognitivo. El estrés, la fatiga, las rutinas repetitivas y la dependencia excesiva de los agentes pueden contribuir a su aparición.",
+      "Este cuestionario explora sus patrones recientes de percepción, pensamiento y participación autónoma.",
+      "Responda según las últimas dos semanas. En cada ítem, elija la opción que mejor se ajuste a su situación."
+    ],
+    "sections": [
+      {
+        "title": "1. Después de usar la IA para ayudar en el trabajo y la vida",
+        "prompt": "Después de usar la IA para ayudar en su trabajo y su vida, ¿qué cambios ha notado? Seleccione todas las que correspondan.",
+        "type": "multi",
+        "options": [
+          "Me interrumpen con más facilidad mensajes o avisos y me cuesta permanecer en una sola cosa.",
+          "Puedo consultar un registro completo de mi vida, pero apenas recuerdo cómo me sentí en el momento.",
+          "Tengo menos tendencia a probar o explorar cosas nuevas por iniciativa propia.",
+          "Me resulta más difícil explicar mis preferencias o las razones de una elección.",
+          "Se ha debilitado mi sensación de implicación o participación en la vida cotidiana.",
+          "Otro (añadir abajo)",
+          "Ninguno de los anteriores."
+        ],
+        "exclusive": [
+          6
+        ],
+        "other": true
+      },
+      {
+        "title": "2. Su experiencia cotidiana",
+        "prompt": "Para cada afirmación, seleccione el círculo que indique hasta qué punto le describe: desde «Me describe completamente», a la izquierda, hasta «No me describe en absoluto», a la derecha. Responda a todas las preguntas.",
+        "type": "scale",
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "title": "3. Hábitos al colaborar con un agente",
+        "prompt": "Los agentes incluyen asistentes en pantalla y de voz, así como sistemas que asisten mediante una interfaz cerebro-ordenador. Utilice la misma escala para indicar hasta qué punto le describe cada afirmación. Responda a todas las preguntas.",
+        "type": "scale",
+        "numbers": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "title": "4. Cuando la expresión se aleja de su intención",
+        "prompt": "Un agente redacta un correo que se aparta un tanto de lo que usted quería decir. ¿Cómo suele responder? Seleccione todas las que correspondan.",
+        "type": "multi",
+        "options": [
+          "Edito directamente frases concretas del correo.",
+          "Dejo que la interfaz cerebro-ordenador lea mis reacciones inmediatas a varias versiones para que el agente ajuste el texto.",
+          "Añado contexto o ejemplos y pido al agente que lo reescriba.",
+          "Marco en la interfaz cerebro-ordenador los pasajes a ajustar y los reviso uno a uno.",
+          "Mantengo la petición original y le pido que regenere el texto.",
+          "Tras leer el resultado, ajusto mi propio pensamiento y adopto la redacción que ofreció.",
+          "Otro (añadir abajo)",
+          "No he vivido esta situación / No se aplica a mi caso."
+        ],
+        "exclusive": [
+          7
+        ],
+        "other": true
+      },
+      {
+        "title": "5. Completar una tarea desconocida",
+        "prompt": "Necesita preparar una breve introducción a partir de un informe de un campo poco familiar. Para trabajar con eficiencia, ¿qué enfoques es más probable que use? Seleccione todas las que correspondan, hasta tres.",
+        "type": "multi",
+        "options": [
+          "Primero dejo que la IA resuma los puntos clave y luego decido qué partes leer con más profundidad.",
+          "Lo leo yo mismo y marco lo que necesito comprender mejor.",
+          "Consulto información de contexto mediante una interfaz cerebro-ordenador y la contrasto con el informe mientras leo.",
+          "Divido la tarea en pasos y los completo uno a uno.",
+          "Otro (añadir abajo)",
+          "No he vivido esta situación / No se aplica a mi caso."
+        ],
+        "exclusive": [
+          5
+        ],
+        "other": true,
+        "max": 3
+      },
+      {
+        "title": "6. Circunstancias recientes de la vida",
+        "prompt": "En las últimas dos semanas, ¿cuáles de estas situaciones ha vivido? Seleccione todas las que correspondan. Estas opciones registran el contexto vital y no se usan para atribuir causas.",
+        "type": "multi",
+        "options": [
+          "Sueño o descanso insuficiente.",
+          "Altos niveles de estrés relacionados con el trabajo, el estudio o la vida diaria.",
+          "Notificaciones frecuentes de dispositivos o de una interfaz cerebro-ordenador.",
+          "La vida cotidiana se siente repetitiva, con pocas oportunidades de encontrar cosas nuevas.",
+          "A menudo activo rutinas preestablecidas de delegación automática de tareas.",
+          "Otro (añadir abajo)",
+          "Ninguna de las anteriores."
+        ],
+        "exclusive": [
+          6
+        ],
+        "other": true
+      },
+      {
+        "title": "7. Impacto en la vida diaria",
+        "prompt": "Si los estados anteriores le han causado molestia, ¿cuánto han afectado la vida cotidiana? Toque un círculo para elegir.",
+        "type": "impact"
+      },
+      {
+        "title": "8. Confirmar quién responde",
+        "prompt": "Este ítem no pregunta por sus preferencias. Confirme quién está eligiendo estas respuestas—no solo a quién pertenece el nombre asociado a este cuestionario.",
+        "type": "single",
+        "options": [
+          "Leo las preguntas y selecciono personalmente las respuestas.",
+          "Un agente me ha ayudado y he confirmado personalmente cada respuesta.",
+          "Un agente generó las respuestas; aún no he confirmado cada respuesta.",
+          "He delegado en mi agente la confirmación de si soy yo quien está respondiendo."
+        ]
+      }
+    ],
+    "questions": [
+      "Al leer o escuchar a alguien hablar, me distraigo fácilmente con notificaciones del teléfono, recordatorios de mi interfaz neural u otra información entrante.",
+      "Al recordar una salida, puedo describir el itinerario de mi registro de actividad, pero no recuerdo detalles concretos de lo que vi o escuché.",
+      "En una ruta familiar, aún noto detalles a los que antes no había prestado atención.",
+      "Después de que un amigo explica una noticia, considero si son posibles otras interpretaciones.",
+      "Cuando tengo tiempo libre, la curiosidad me lleva a explorar un tema nuevo o probar una actividad nueva.",
+      "Al comer, pasear o hacer algo que me gusta, siento que lo hago de forma mecánica y me cuesta implicarme en la experiencia.",
+      "Al revisar un informe de trabajo, me detengo tras leer el resumen del agente, sin leer el informe original.",
+      "Tras recibir un resumen de conocimiento enviado por un agente mediante una interfaz cerebro-ordenador, puedo explicar el contenido con mis propias palabras.",
+      "Después de que un agente organiza materiales o procesa una hoja de cálculo, compruebo qué fuentes usó y qué pasos produjeron el resultado.",
+      "Después de pedir a un agente que redacte un correo, reviso cada punto para comprobar si el contenido se ajusta a lo que había pedido.",
+      "Cuando la redacción de un agente se aparta de lo que yo quería decir, puedo señalar los lugares concretos que necesitan revisión.",
+      "Después de que un agente me muestra cómo usar una herramienta nueva, intento completar yo mismo una tarea similar."
+    ],
+    "results": [
+      {
+        "label": "Mayor participación autónoma",
+        "range": "0–menos de 25",
+        "headline": "Los bucles de experiencia directa siguen activos",
+        "paragraphs": [
+          "Esta autoevaluación sugiere que los vínculos entre su percepción, comprensión y acción siguen relativamente intactos. Incluso cuando un agente asume parte del procesamiento de información y de la ejecución de tareas, usted sigue notando a menudo el entorno por sí mismo, formando juicios y revisando su pensamiento mediante resultados reales.",
+          "En la investigación sobre el empobrecimiento cognitivo, este proceso se llama un “bucle de retroalimentación cognitiva”: los acontecimientos externos pasan por su sentir y su comprensión, y luego se convierten en acciones que usted inicia. Mientras el bucle sigue en marcha, ayuda a preservar la diferencia entre la experiencia personal y los registros del agente: no solo sabe qué ocurrió, sino que conserva la sensación de “yo lo viví”."
+        ],
+        "adviceTitle": "Sugerencias de mantenimiento",
+        "advice": [
+          {
+            "title": "Conserve una ventana de percepción en bruto.",
+            "text": "Use periódicamente un modo de baja intervención en la interfaz cerebro-ordenador. Retrase etiquetas de reconocimiento no esenciales, explicaciones situacionales y recomendaciones de acción para que su primera impresión tenga espacio para formarse."
+          },
+          {
+            "title": "Conserve la autoridad sobre la confirmación de intención.",
+            "text": "En asuntos que implican expresión personal, relaciones y planes a largo plazo, siga confirmando usted mismo los objetivos. Evite que el sistema autorice automáticamente de forma continua según preferencias históricas."
+          },
+          {
+            "title": "Permita experiencias no optimizadas.",
+            "text": "No todos los paseos, conversaciones o intentos necesitan un resumen generado. Algunos detalles que aún no han sido explicados siguen formando parte de la experiencia personal."
+          }
+        ],
+        "focus": "Cuando su sentir difiere de la explicación de un agente, ¿puede conservar su propia duda en lugar de tratarla de inmediato como un error que corregir?"
+      },
+      {
+        "label": "Participación reducida en algunas etapas",
+        "range": "25–menos de 50",
+        "headline": "Tendencia a externalizar partes del bucle de experiencia",
+        "paragraphs": [
+          "Esta autoevaluación sugiere que algunas etapas cognitivas pueden estar desplazándose hacia sistemas de agentes de IA. Aún puede juzgar y actuar de forma independiente, pero en ciertas situaciones la explicación del sistema llega antes que su observación, y las recomendaciones se forman antes que su propia intención.",
+          "Esto se llama “superposición preinterpretativa”. Cuando las cosas del entorno aparecen continuamente como ya identificadas y resumidas, con la siguiente acción ya seleccionada, las personas se acostumbran a recibir resultados y pasan con menos frecuencia de la incertidumbre a la comprensión. Los cambios tempranos a menudo no dañan la eficiencia e incluso pueden sentirse como una vida más fluida."
+        ],
+        "adviceTitle": "Sugerencias de ajuste",
+        "advice": [
+          {
+            "title": "Active un breve retraso de explicación.",
+            "text": "En entornos familiares, posponga el análisis situacional no esencial. Note primero qué ocurre ante usted y luego mire cómo lo explica el agente."
+          },
+          {
+            "title": "Registre la intención antes de la intervención del sistema.",
+            "text": "Antes de generar un correo, organizar una actividad o elegir un plan, deje una palabra, una frase o una marca de intención. Después, compruebe si el resultado sigue coincidiendo con lo que quería decir."
+          },
+          {
+            "title": "Mantenga un paso bajo su control directo.",
+            "text": "Elija un pequeño paso de una tarea para completarlo usted mismo, de modo que el resultado de la acción vuelva a ser base de su juicio y aprendizaje."
+          }
+        ],
+        "focus": "Si temporalmente no hay recomendación, ¿puede aún imaginar un siguiente paso propio, aunque todavía no lo tenga del todo claro?"
+      },
+      {
+        "label": "Participación reducida en múltiples etapas",
+        "range": "50–menos de 75",
+        "headline": "La compensación del agente puede enmascarar una integración más débil de la experiencia",
+        "paragraphs": [
+          "Esta autoevaluación sugiere que ya puede depender de sistemas en múltiples etapas para mantener la continuidad de percepción, juicio y acción. Los registros de vida siguen completos y las tareas se terminan a tiempo, pero esa información puede no convertirse del todo en experiencia personal que pueda recordar, explicar y reutilizar.",
+          "Este estado se llama “presencia cognitiva reducida”. Un agente puede almacenar acontecimientos, aportar contexto y recuperar respuestas bajo demanda, por lo que las lagunas de la experiencia personal a menudo son difíciles de notar. Una sensación subjetiva común es: “Sé que esto ocurrió, pero no estoy seguro de haberlo comprendido de verdad; el registro demuestra que estuve allí, pero apenas recuerdo cómo me sentí.”"
+        ],
+        "adviceTitle": "Sugerencias de intervención",
+        "advice": [
+          {
+            "title": "Active un protocolo de reconexión de la experiencia.",
+            "text": "Elija una tarea sencilla. Primero observe la situación de primera mano, forme su propio juicio y lleve a cabo la acción. Solo entonces revise los registros y el análisis del agente. Deje que la asistencia siga a su experiencia."
+          },
+          {
+            "title": "Distinga las fuentes de la memoria.",
+            "text": "En la interfaz cerebro-ordenador, active etiquetas de origen como “vivido / complementado por el sistema / inferido” para distinguir qué vino del sentir del momento y qué completó el sistema después."
+          },
+          {
+            "title": "Pase al modo de colaboración paso a paso.",
+            "text": "En tareas que desea recuperar, deje que el agente ofrezca pistas y retroalimentación mientras usted conserva la elección de métodos y el manejo de desviaciones."
+          },
+          {
+            "title": "Construya un ancla sensorial personal.",
+            "text": "Elija un sonido familiar, un objeto con textura o una acción corporal. Registre la sensación concreta del momento sin generar una evaluación resumida."
+          }
+        ],
+        "focus": "Tras terminar algo, sin consultar una grabación del proceso, ¿puede decir qué notó, qué cambió y por qué?"
+      },
+      {
+        "label": "Participación claramente reducida",
+        "range": "75–100",
+        "headline": "Señales de desacoplamiento entre la intención personal y la ejecución del agente",
+        "paragraphs": [
+          "Esta autoevaluación sugiere un estado cercano al “desacoplamiento cognitivo” del empobrecimiento cognitivo: el sistema sigue prediciendo necesidades y ejecutando tareas con precisión, mientras que los vínculos completos entre su intención activa, su sentir directo y la retroalimentación de la acción se forman con menos frecuencia.",
+          "En este estado, un agente aún puede tomar en su nombre decisiones coherentes con preferencias históricas. Los registros externos muestran una vida estable, pero usted puede ir teniendo cada vez más dificultad para distinguir: “¿Es esto lo que quiero ahora, o lo que el sistema juzga que el yo del pasado habría querido?” Como el agente sigue compensando la menor participación personal, estos cambios pueden permanecer ocultos durante mucho tiempo sin causar fallos visibles en las tareas."
+        ],
+        "adviceTitle": "Sugerencias de intervención",
+        "advice": [
+          {
+            "title": "Revise la atribución de la intención.",
+            "text": "Revise asuntos personales ejecutados automáticamente de forma reciente. Marque cada uno como “lo pedí explícitamente”, “confirmé el consentimiento” o “el sistema lo inferió de preferencias históricas”, y reconfirme qué autorizaciones siguen vigentes."
+          },
+          {
+            "title": "Pase al modo de asistencia guiada.",
+            "text": "En modo de apoyo cognitivo, conserve la asistencia necesaria mientras el agente hace preguntas, ofrece pistas y espera confirmación, aumentando gradualmente su participación."
+          },
+          {
+            "title": "Reconecte mediante pequeñas acciones perceptibles.",
+            "text": "Toque una hoja, gire un objeto, cuide una planta con las manos. Observe cómo su movimiento cambia lo que tiene delante."
+          },
+          {
+            "title": "Solicite una evaluación de la capacidad de acción autónoma.",
+            "text": "En una clínica cognitiva, examine más a fondo los vínculos entre la formación de intención, el reconocimiento de fuentes de experiencia y la retroalimentación de la acción. El foco es si vuelve a ser el iniciador y participante del proceso."
+          }
+        ],
+        "focus": "Antes de que el sistema ofreciera una sugerencia, ¿apareció una leve curiosidad, vacilación, preferencia o rechazo? Aunque aún no pueda explicarlo con claridad, esas reacciones pueden ser un punto de partida para restablecer la conexión entre su intención y sus acciones."
+      }
+    ],
+    "resultFootnotes": [
+      "Esta clasificación se genera a partir de las respuestas de la autoevaluación y no significa que se hayan completado pruebas de actividad neural ni diagnósticos de interfaz.",
+      "Lo anterior pertenece al escenario de juego de A Gift for Ghost y es ficticio. Mecanismos y flujos de intervención como la “superposición preinterpretativa”, la “reconexión de la experiencia” y el “desacoplamiento cognitivo” son construcción de mundo, no conclusiones médicas validadas."
     ]
   }
 }
