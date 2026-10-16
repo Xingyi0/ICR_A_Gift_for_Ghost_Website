@@ -1,0 +1,506 @@
+{
+  "zh": {
+    "intro": [
+      "2036 年，Agent 广泛协助日常感知、判断与执行。当个人更少亲自观察与决定，生活虽仍运转，对现实的直接参与却逐渐减弱——这被称为“认知贫化症”。压力、疲惫、生活单一与过度依赖代理，都可能参与其形成。",
+      "本问卷用于了解您近期的感知、思考及自主参与状态。",
+      "请根据最近两周的实际情况作答。每题选择最符合自身状态的一项。"
+    ],
+    "sections": [
+      {
+        "title": "一 使用 AI 帮助你的工作和生活之后",
+        "prompt": "使用 AI 帮助你的工作和生活之后，你注意到哪些变化？可多选。",
+        "type": "multi",
+        "options": [
+          "更容易被消息或提示打断，很难持续关注一件事。",
+          "能查到完整的生活记录，却不太记得当时的具体感受。",
+          "更少主动尝试或探索新事物。",
+          "更难说清自己的偏好或选择理由。",
+          "对日常生活的投入感或参与感减弱。",
+          "其他（请在下方补充）",
+          "没有上述变化。"
+        ],
+        "exclusive": [
+          6
+        ],
+        "other": true
+      },
+      {
+        "title": "二 日常生活中的状态",
+        "prompt": "每题点击圆环选择符合程度：左侧为符合，右侧为不符合。每题均为必选。",
+        "type": "scale",
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "title": "三 与 Agent 协作时的习惯",
+        "prompt": "Agent 包括屏幕、语音助手及通过脑机接口提供辅助的系统。请继续用圆环选择符合程度；每题均为必选。",
+        "type": "scale",
+        "numbers": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "title": "四 当表达与原意有些出入",
+        "prompt": "Agent 替你写好的一封邮件，与你想表达的意思有些出入。你通常会怎样处理？可多选。",
+        "type": "multi",
+        "options": [
+          "直接修改邮件里的具体句子。",
+          "让脑机接口读取自己对几个版本的即时反应，帮助 Agent 调整表达。",
+          "补充背景或给出例子，让 Agent 再写一版。",
+          "在脑机界面中标记需要调整的片段，逐处修改。",
+          "保持原有要求，让它重新生成。",
+          "看过结果后调整自己的想法，采用它提供的表达。",
+          "其他（请在下方补充）",
+          "没有遇到这种情况／不适用。"
+        ],
+        "exclusive": [
+          7
+        ],
+        "other": true
+      },
+      {
+        "title": "五 完成一项不熟悉的任务",
+        "prompt": "你需要根据一份不熟悉领域的报告，准备一段简短介绍。为了提高完成效率，你更可能采用哪些方式？可多选，最多选三项。",
+        "type": "multi",
+        "options": [
+          "先让 AI 整理重点，再决定深入看哪些部分。",
+          "自己读一遍，把需要进一步了解的地方标出来。",
+          "通过脑机接口调取相关背景知识，边读边对照。",
+          "把任务拆成几个步骤，逐步完成。",
+          "其他（请在下方补充）",
+          "没有遇到这种情况／不适用。"
+        ],
+        "exclusive": [
+          5
+        ],
+        "other": true,
+        "max": 3
+      },
+      {
+        "title": "六 近期的生活情况",
+        "prompt": "最近两周，你经历了哪些情况？可多选。这些选项记录生活背景，不用于确定原因。",
+        "type": "multi",
+        "options": [
+          "睡眠或休息不足。",
+          "工作、学习或生活压力较大。",
+          "来自设备或脑机接口的消息提醒较多。",
+          "日常生活重复，很少有机会接触新事物。",
+          "经常启用提前设定好的任务托管方案。",
+          "其他（请在下方补充）",
+          "没有上述情况。"
+        ],
+        "exclusive": [
+          6
+        ],
+        "other": true
+      },
+      {
+        "title": "七 对生活的影响",
+        "prompt": "如果上述状态给你带来了困扰，它们对日常生活的影响有多大？点击圆环选择。",
+        "type": "impact"
+      },
+      {
+        "title": "八 作答主体确认",
+        "prompt": "本项不询问您的偏好。请确认正在选择这些答案的主体，而不是本问卷记录的姓名所属者。",
+        "type": "single",
+        "options": [
+          "本人直接阅读并选择",
+          "Agent协助，本人已逐项确认",
+          "Agent代为生成，本人尚未逐项确认",
+          "授权Agent判断是否由本人作答"
+        ]
+      }
+    ],
+    "questions": [
+      "读文章或听别人讲话时，我容易被手机消息、脑内提醒等信息带走注意力。",
+      "回想一次外出时，我能说出记录里的行程，却想不起自己当时看到或听到的具体细节。",
+      "走一条熟悉的路时，我仍会注意到以前没留意的细节。",
+      "听朋友解释一则新闻后，我会考虑是否还有其他可能的解释。",
+      "有空闲时间时，我会因为好奇，主动了解一个新话题或尝试一种新活动。",
+      "吃饭、散步或做自己喜欢的事时，我觉得自己只是在完成动作，很难投入其中。",
+      "查看一份工作报告时，我读完 Agent 提供的概要就停止了解，不再阅读原始内容。",
+      "接收 Agent 通过脑机接口推送的知识摘要后，我能用自己的话说明其中的内容。",
+      "Agent 整理资料或处理表格后，我会核对它依据哪些材料、经过哪些处理得出结果。",
+      "让 Agent 写邮件后，我会逐项检查内容是否符合自己原本的要求。",
+      "Agent 的表达偏离我的意思时，我能具体指出需要修改的地方。",
+      "Agent 教我使用一种新工具后，我会尝试自己完成一次类似操作。"
+    ],
+    "results": [
+      {
+        "label": "自主参与较多",
+        "range": "0–不足25分",
+        "headline": "直接经验回路保持活跃",
+        "paragraphs": [
+          "本次自评提示，您的感知、理解与行动之间仍保持着较完整的联系。即使 Agent 已承担部分信息处理和任务执行，您仍较常亲自注意环境、形成判断，并通过实际结果修正自己的想法。",
+          "在认知贫化研究中，这一过程被称为“认知闭环”：外部事件经过您的感受与理解，再转化为由您发起的行动。闭环持续运转，有助于维持个人经验与代理记录之间的区别——您不仅知道发生了什么，也保留着“这是我经历过的”的感受。"
+        ],
+        "adviceTitle": "维持建议",
+        "advice": [
+          {
+            "title": "保留原始感知窗口。",
+            "text": "定期使用脑机接口的低介入模式，延后非必要的识别标签、情境解释与行动推荐，让自己的第一印象有机会形成。"
+          },
+          {
+            "title": "保留意图确认权限。",
+            "text": "对涉及个人表达、关系和长期计划的事务，继续由本人确认目标，避免系统根据历史偏好持续自动授权。"
+          },
+          {
+            "title": "允许未经优化的体验。",
+            "text": "并非每次散步、交谈或尝试都需要生成总结。某些尚未被解释的细节，也属于个人经验的一部分。"
+          }
+        ],
+        "focus": "当您的感受与 Agent 的解释不同，您是否仍能保留自己的疑问，而不立即将其视为需要修正的误差。"
+      },
+      {
+        "label": "部分环节参与减少",
+        "range": "25–不足50分",
+        "headline": "出现局部经验回路外置倾向",
+        "paragraphs": [
+          "本次自评提示，您的部分认知环节可能正在向代理系统转移。您仍能独立判断和行动，但在某些情境中，系统的解释会先于您的观察抵达，推荐会先于您的意愿形成。",
+          "这一现象被称为“预解释覆盖”。当环境中的事物不断以“已识别、已归纳、已决定下一步”的形式呈现，个人逐渐熟悉如何接收结果，却较少经历从不确定到理解的过程。早期变化往往并不影响效率，甚至会被体验为生活变得更加顺畅。"
+        ],
+        "adviceTitle": "调整建议",
+        "advice": [
+          {
+            "title": "启用短时解释延迟。",
+            "text": "在熟悉环境中，将非必要的情境分析延后呈现。先注意眼前发生了什么，再查看 Agent 如何解释。"
+          },
+          {
+            "title": "记录系统介入前的意图。",
+            "text": "在生成邮件、安排活动或选择方案前，先留下一个词、一句话或一段意向标记，完成后对照结果是否仍符合最初的意思。"
+          },
+          {
+            "title": "保留一处未托管环节。",
+            "text": "从任务中选择一个小步骤由本人完成，让行动结果重新成为您判断和学习的依据。"
+          }
+        ],
+        "focus": "如果暂时没有推荐，您是否仍能产生一个模糊但属于自己的下一步。"
+      },
+      {
+        "label": "多个环节参与减少",
+        "range": "50–不足75分",
+        "headline": "代理补偿可能掩盖经验整合减弱",
+        "paragraphs": [
+          "本次自评提示，您可能已在多个环节中依赖系统维持感知、判断与行动的连续性。生活记录依然完整，任务也能按计划完成，但这些信息未必充分转化为您能够回想、解释和再次运用的个人经验。",
+          "这一状态被称为“认知在场性不足”。Agent 可以保存事件、补充背景，并在需要时即时调用答案，因此个人经验的缺口往往不易被察觉。常见的主观感受是：“我知道这件事，但不确定自己是否真正理解过；记录证明我去过那里，却很难想起当时的感受。”"
+        ],
+        "adviceTitle": "干预建议",
+        "advice": [
+          {
+            "title": "启用经验回接流程。",
+            "text": "选择一项简单事务，依次由本人观察、提出判断、完成操作，再查看 Agent 的记录与分析。让辅助信息接在您的经验之后。"
+          },
+          {
+            "title": "区分记忆来源。",
+            "text": "在脑机界面中开启“亲历／系统补充／推断”来源标记，帮助辨认哪些内容来自当时的感受，哪些由系统事后补全。"
+          },
+          {
+            "title": "改用过程协作模式。",
+            "text": "对希望重新掌握的任务，让 Agent 提供提示和反馈，保留由本人选择方法、处理偏差的环节。"
+          },
+          {
+            "title": "建立个人感受锚点。",
+            "text": "选择一种熟悉的声音、一件有触感的物品或一项身体操作，记录当下的具体感受，暂不生成概括性评价。"
+          }
+        ],
+        "focus": "完成一件事之后，您能否在不调用过程回放的情况下，说出自己注意到了什么、改变过什么，以及为什么。"
+      },
+      {
+        "label": "参与减少较明显",
+        "range": "75–100分",
+        "headline": "存在主体意图与代理执行脱耦倾向",
+        "paragraphs": [
+          "本次自评提示，您所描述的状态接近认知贫化中的“认知脱耦”：系统持续准确地预测需求并执行任务，而您的主动意图、直接感受与行动反馈之间，较少形成完整联系。",
+          "在这种状态下，代理仍可能以您的身份作出符合历史偏好的选择。外部记录显示生活运转稳定，您却可能逐渐难以分辨：“这是我现在想要的，还是系统判断过去的我会想要的？”由于代理补偿始终存在，这种变化可能长时间不以任务失败的形式显现。"
+        ],
+        "adviceTitle": "干预建议",
+        "advice": [
+          {
+            "title": "进行意图归属复核。",
+            "text": "检查近期自动执行的个人事务，分别标记“本人明确提出”“本人确认同意”“系统依据历史偏好推定”，重新确认仍然有效的授权。"
+          },
+          {
+            "title": "切换为陪伴式代理。",
+            "text": "在认知支持模式下，让 Agent 保留必要协助，通过提问、提示和等待确认，逐步增加您的参与。"
+          },
+          {
+            "title": "从可感知的小行动开始回接。",
+            "text": "触摸一片叶子、转动一个物体、亲手照料一株植物，观察自己的动作如何改变眼前的事物。"
+          },
+          {
+            "title": "申请主体参与评估。",
+            "text": "在认知门诊进一步检查意图形成、经验来源辨认与行动反馈的联系。评估重点是您是否重新成为过程的发起者和参与者。"
+          }
+        ],
+        "focus": "在系统尚未提出建议之前，是否曾出现过一个微弱的好奇、迟疑、偏好或拒绝。即使尚不能清楚解释，这些反应也可以作为意图回接的起点。"
+      }
+    ],
+    "resultFootnotes": [
+      "本次分档依据自评回答生成，不代表已完成神经活动检测或接口诊断。",
+      "以上内容属于《A Gift for Ghost》的游戏设定，为虚构内容。“预解释覆盖”“经验回接”“主体脱耦”等机制及干预流程均为世界观创作，不属于经过验证的医学结论。"
+    ]
+  },
+  "en": {
+    "intro": [
+      "In 2036, Agents widely assist everyday sensing, judgment, and action. When people observe and decide less for themselves, life may still run smoothly while direct engagement with the world fades—this is Cognitive Impoverishment Syndrome. Stress, fatigue, repetitive routines, and over-reliance on Agents may contribute to its development.",
+      "This questionnaire explores your recent patterns of perception, thinking, and autonomous participation.",
+      "Please answer based on the past two weeks. For each item, choose the option that best matches your situation."
+    ],
+    "sections": [
+      {
+        "title": "1. After using AI to help with work and life",
+        "prompt": "After using AI to help with your work and life, which changes have you noticed? Select all that apply.",
+        "type": "multi",
+        "options": [
+          "I am more easily interrupted by messages or prompts and find it hard to stay with one thing.",
+          "I can look up a complete record of my life, yet barely remember how I felt at the time.",
+          "I am less likely to actively try or explore new things.",
+          "It is harder to explain my preferences or reasons for a choice.",
+          "My sense of engagement or participation in everyday life has weakened.",
+          "Other (please add below)",
+          "None of the above."
+        ],
+        "exclusive": [
+          6
+        ],
+        "other": true
+      },
+      {
+        "title": "2. Your everyday experience",
+        "prompt": "For each statement, select the circle that best describes your experience, from completely true of you on the left to not at all true of you on the right. Please answer every item.",
+        "type": "scale",
+        "numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "title": "3. Habits when collaborating with an Agent",
+        "prompt": "Agents include on-screen and voice assistants, as well as systems that assist through a brain–computer interface. Continue choosing on the circle scale for each statement. Please answer every item.",
+        "type": "scale",
+        "numbers": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "title": "4. When expression drifts from your intent",
+        "prompt": "An Agent drafts an email that is somewhat off from what you meant. How do you usually respond? Select all that apply.",
+        "type": "multi",
+        "options": [
+          "I directly edit specific sentences in the email.",
+          "I let the brain–computer interface read my immediate reactions to a few versions so the Agent can adjust the wording.",
+          "I add context or examples and ask the Agent to rewrite.",
+          "I mark passages to adjust in the brain–computer interface and revise them one by one.",
+          "I keep the original request and ask it to regenerate.",
+          "After reading the result, I adjust my own thinking and adopt the wording it provided.",
+          "Other (please add below)",
+          "I have not encountered this / not applicable."
+        ],
+        "exclusive": [
+          7
+        ],
+        "other": true
+      },
+      {
+        "title": "5. Completing an unfamiliar task",
+        "prompt": "You need to prepare a short introduction based on a report from an unfamiliar field. To work efficiently, which approaches are you more likely to use? Select all that apply, up to three.",
+        "type": "multi",
+        "options": [
+          "I first let AI summarize the key points, then decide which parts to read more deeply.",
+          "I read it myself and mark what I need to understand further.",
+          "I pull related background knowledge through a brain–computer interface and compare as I read.",
+          "I break the task into steps and complete them one by one.",
+          "Other (please add below)",
+          "I have not encountered this / not applicable."
+        ],
+        "exclusive": [
+          5
+        ],
+        "other": true,
+        "max": 3
+      },
+      {
+        "title": "6. Recent life circumstances",
+        "prompt": "In the past two weeks, which of these have you experienced? Select all that apply. These options record life context and are not used to assign causes.",
+        "type": "multi",
+        "options": [
+          "Insufficient sleep or rest.",
+          "High levels of stress related to work, study, or daily life.",
+          "Frequent message reminders from devices or a brain–computer interface.",
+          "Everyday life feels repetitive, with little chance to encounter new things.",
+          "I often enable pre-set automated task-delegation routines.",
+          "Other (please add below)",
+          "None of the above."
+        ],
+        "exclusive": [
+          6
+        ],
+        "other": true
+      },
+      {
+        "title": "7. Impact on daily life",
+        "prompt": "If the states above have troubled you, how much have they affected everyday life? Tap a circle to choose.",
+        "type": "impact"
+      },
+      {
+        "title": "8. Confirm who is answering",
+        "prompt": "This item does not ask about your preferences. Please confirm who is choosing these answers—not merely whose name is attached to this questionnaire record.",
+        "type": "single",
+        "options": [
+          "I am reading and choosing directly",
+          "An Agent assisted; I confirmed each item",
+          "An Agent generated the answers; I have not yet confirmed each item",
+          "I have delegated confirmation of whether I am answering personally to my Agent."
+        ]
+      }
+    ],
+    "questions": [
+      "When reading or listening to someone speak, I am easily distracted by phone notifications, reminders delivered through my neural interface, or other incoming information.",
+      "When recalling an outing, I can describe the itinerary in my activity log, but cannot recall specific details of what I saw or heard.",
+      "On a familiar route, I still notice details I had not paid attention to before.",
+      "After a friend explains a news story, I consider whether other interpretations are possible.",
+      "When I have free time, curiosity prompts me to explore a new topic or try a new activity.",
+      "When eating, walking, or doing something I enjoy, I feel as though I am just going through the motions and find it hard to feel engaged.",
+      "When reviewing a work report, I stop after reading the Agent’s summary, without reading the original report.",
+      "After receiving a knowledge summary pushed by an Agent through a brain–computer interface, I can explain the content in my own words.",
+      "After an Agent organizes materials or processes a spreadsheet, I check which sources it used and what steps produced the result.",
+      "After asking an Agent to write an email, I check item by item whether the content matches my original requirements.",
+      "When an Agent’s wording drifts from what I meant, I can point to the specific places that need revision.",
+      "After an Agent shows me how to use a new tool, I try completing a similar task myself."
+    ],
+    "results": [
+      {
+        "label": "Higher autonomous participation",
+        "range": "0–under 25",
+        "headline": "Direct experience loops remain active",
+        "paragraphs": [
+          "This self-assessment suggests that the links among your perception, understanding, and action remain relatively intact. Even when an Agent handles some information processing and task execution, you still often notice the environment yourself, form judgments, and revise your thinking through real outcomes.",
+          "In research on cognitive impoverishment, this process is called a “cognitive feedback loop”: external events pass through your feeling and understanding, then become actions you initiate. While the loop keeps running, it helps preserve the difference between personal experience and agent records—you not only know what happened, you retain the sense that “I lived through this.”"
+        ],
+        "adviceTitle": "Maintenance suggestions",
+        "advice": [
+          {
+            "title": "Keep a raw perceptual window.",
+            "text": "Periodically use a low-intervention mode on the brain–computer interface. Delay nonessential recognition labels, situational explanations, and action recommendations so your first impression has room to form."
+          },
+          {
+            "title": "Retain authority over intent confirmation.",
+            "text": "For matters involving personal expression, relationships, and long-term plans, continue confirming goals yourself. Avoid letting the system keep auto-authorizing based on historical preferences."
+          },
+          {
+            "title": "Allow unoptimized experience.",
+            "text": "Not every walk, conversation, or attempt needs a generated summary. Some details that have not yet been explained are still part of personal experience."
+          }
+        ],
+        "focus": "When your feeling differs from an Agent’s explanation, can you still keep your own question instead of treating it immediately as an error to correct?"
+      },
+      {
+        "label": "Reduced participation in some stages",
+        "range": "25–under 50",
+        "headline": "A tendency to externalize parts of the experience loop",
+        "paragraphs": [
+          "This self-assessment suggests that some cognitive stages may be shifting toward agent systems. You can still judge and act independently, yet in certain situations the system’s explanation arrives before your observation, and recommendations form before your own intention.",
+          "This is called “pre-interpretive overlay.” When things in the environment continually appear as already identified, already summarized, and already decided next, people grow used to receiving results and less often move from uncertainty to understanding. Early changes often do not hurt efficiency and may even feel like life becoming smoother."
+        ],
+        "adviceTitle": "Adjustment suggestions",
+        "advice": [
+          {
+            "title": "Enable brief explanation delay.",
+            "text": "In familiar environments, postpone nonessential situational analysis. Notice what is happening in front of you first, then look at how the Agent explains it."
+          },
+          {
+            "title": "Record intent before system intervention.",
+            "text": "Before generating an email, arranging an activity, or choosing a plan, leave a word, a sentence, or an intention mark. Afterwards, check whether the result still matches what you meant."
+          },
+          {
+            "title": "Keep one step under your direct control.",
+            "text": "Choose a small step in a task to complete yourself, so the outcome of action again becomes a basis for your judgment and learning."
+          }
+        ],
+        "focus": "If there is temporarily no recommendation, can you still produce a vague next step that belongs to you?"
+      },
+      {
+        "label": "Reduced participation across multiple stages",
+        "range": "50–under 75",
+        "headline": "Agent compensation may mask weaker experience integration",
+        "paragraphs": [
+          "This self-assessment suggests you may already rely on systems across multiple stages to maintain continuity of perception, judgment, and action. Life records remain complete and tasks get finished on schedule, yet that information may not fully become personal experience you can recall, explain, and reuse.",
+          "This state is called “reduced cognitive presence.” An Agent can store events, supply background, and retrieve answers on demand, so gaps in personal experience are often hard to notice. A common subjective sense is: “I know this happened, but I am not sure I truly understood it; the record proves I was there, yet I can barely recall how it felt.”"
+        ],
+        "adviceTitle": "Intervention suggestions",
+        "advice": [
+          {
+            "title": "Enable an experience reconnection protocol.",
+            "text": "Choose a simple task. First observe the situation firsthand, form your own judgment, and carry out the action. Only then review the Agent’s records and analysis. Let assistance follow your experience."
+          },
+          {
+            "title": "Distinguish memory sources.",
+            "text": "In the brain–computer interface, turn on source labels such as “lived / system-supplemented / inferred” to tell what came from feeling at the time and what the system filled in later."
+          },
+          {
+            "title": "Switch to process collaboration.",
+            "text": "For tasks you want to reclaim, let the Agent offer prompts and feedback while you keep choosing methods and handling deviations."
+          },
+          {
+            "title": "Build a personal sensory anchor.",
+            "text": "Choose a familiar sound, a textured object, or a bodily action. Record the concrete feeling of the moment without generating a summary evaluation."
+          }
+        ],
+        "focus": "After finishing something, without calling up a process replay, can you say what you noticed, what you changed, and why?"
+      },
+      {
+        "label": "Clearly reduced participation",
+        "range": "75–100",
+        "headline": "Signs of decoupling between personal intent and Agent execution",
+        "paragraphs": [
+          "This self-assessment suggests a state close to “cognitive decoupling” in cognitive impoverishment: the system keeps predicting needs and executing tasks accurately, while complete links among your active intent, direct feeling, and action feedback form less often.",
+          "In this state, an agent may still make preference-consistent choices in your name. External records show a stable life, yet you may gradually struggle to tell: “Is this what I want now, or what the system judges past-me would want?” Because the Agent continues to compensate for reduced personal participation, these changes may remain hidden for a long time without causing visible task failures."
+        ],
+        "adviceTitle": "Intervention suggestions",
+        "advice": [
+          {
+            "title": "Review attribution of intent.",
+            "text": "Check recent auto-executed personal matters. Mark each as “I explicitly requested,” “I confirmed consent,” or “system inferred from historical preference,” and reconfirm which authorizations remain valid."
+          },
+          {
+            "title": "Switch to guided-assistance mode.",
+            "text": "In cognitive-support mode, keep necessary assistance while the Agent asks questions, offers prompts, and waits for confirmation, gradually increasing your participation."
+          },
+          {
+            "title": "Reattach through small perceptible actions.",
+            "text": "Touch a leaf, turn an object, tend a plant by hand. Watch how your movement changes what is in front of you."
+          },
+          {
+            "title": "Request a personal agency assessment.",
+            "text": "At a cognitive clinic, further examine links among intent formation, recognition of experience sources, and action feedback. The focus is whether you again become the initiator and participant in the process."
+          }
+        ],
+        "focus": "Before the system offered a suggestion, did a faint curiosity, hesitation, preference, or refusal appear? Even if you cannot yet explain it clearly, those reactions can be a starting point for reattaching intent."
+      }
+    ],
+    "resultFootnotes": [
+      "This banding is generated from self-assessment answers and does not mean neural activity testing or interface diagnostics have been completed.",
+      "The above belongs to the game setting of A Gift for Ghost and is fictional. Mechanisms and intervention flows such as “pre-interpretive overlay,” “experience reconnection,” and “subject decoupling” are world-building, not validated medical conclusions."
+    ]
+  }
+}
